@@ -23,6 +23,10 @@ function subtract($a, $b) {
     echo "Результат вычитания: " . ($a - $b) . "\n";
 }
 
+function divide($a, $b) {
+    echo "Результат деления: " . ($a / $b) . "\n";
+}
+
 while (true) {
     printMenu();
     $choice = readline("Выберите пункт меню: ");
