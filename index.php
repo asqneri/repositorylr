@@ -12,6 +12,9 @@ $b = 0;
 
 
 
+function add($a, $b) {
+    echo "Результат сложения: " . ($a + $b) . "\n";
+}
 
 while (true) {
     printMenu();
